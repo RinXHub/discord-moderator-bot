@@ -1,6 +1,6 @@
 {
-  "clientId": "bot_id",
-  "guildId": "server_id",
+  "clientId": "1229102199863251048",
+  "guildId": "1191928686832779334",
   "autoRole": {
     "userRoleId": "auto_user_role_id",
     "botRoleId": "auto_bot_role_id"
@@ -15,7 +15,7 @@
     "ticketGroups": {}
   },
   "giveaways": {
-    "enabled": "false"
+    "enabled": "true"
   },
   "autoResponders": [
     {
@@ -24,20 +24,20 @@
       "mentionUser": true
     },
     {
-      "trigger": "Wick Studio",
-      "reply": "discord.gg/wicks {{user}}",
+      "trigger": "RinX",
+      "reply": "https://discord.com/invite/aJujGZm8fv {{user}}",
       "mentionUser": true
     }
   ],
   "protection": {
-    "allowedGuildId": "server_id",
-    "logChannelId": "channel_id",
+    "allowedGuildId": "1191928686832779334",
+    "logChannelId": "1226475007933284362",
     "whitelistRoles": [
       "ROLE_ID_1",
       "ROLE_ID_2"
     ],
     "antispam": {
-      "messageCount": 2,
+      "messageCount": 10,
       "time": 10000,
       "timeoutDuration": 60000,
       "active": "false",
@@ -46,13 +46,13 @@
     },
     "antilinks": {
       "actions": {
-        "timeoutDuration": 60000,
-        "timeout": "false",
+        "timeoutDuration": 3600,
+        "timeout": "true",
         "kick": "false",
         "ban": "false"
       },
-      "active": "false",
-      "deleteMessages": "false"
+      "active": "true",
+      "deleteMessages": "true"
     },
     "channelMonitoring": {
       "maxChannelChanges": 2,
